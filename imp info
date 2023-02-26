@@ -1,0 +1,7 @@
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.8
+
+content-encoding: gzip
+content-security-policy: frame-ancestors 'self' https://medium.com
+content-type: text/html; charset=utf-8
