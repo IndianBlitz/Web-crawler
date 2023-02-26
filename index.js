@@ -15,7 +15,7 @@ const puppeteer = require('puppeteer');
 
 // Elements
 const app = express();
-const PORT = 4050;
+const PORT =process.env.PORT ||  4050;
 app.use(bodyParser.json());
 
 // const BASE_URL = process.env.BASE_URL;
